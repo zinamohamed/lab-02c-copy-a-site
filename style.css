@@ -1,0 +1,161 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+ ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   list-style: none;
+   text-decoration: none;
+ }
+
+
+ .logo {
+   color: navy;
+   font-size: 1.5em;
+ }
+
+ a {
+  color:#1865f2;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+ header {
+   border-bottom: 1px solid black;
+   text-decoration: none;
+   
+ }
+
+ .main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: left;
+   padding: 100px;
+   font-family: 'Raleway', sans-serif;
+  
+ }
+
+ .main-title {
+   font-size: 3em;
+ }
+
+ .main-p {
+   font-size: 1.5em;
+   font-weight: 200;
+ }
+
+ .middle {
+  background: #f8f5f4;
+  font-family: 'Raleway', sans-serif;
+}
+
+.middle-title {
+  font-size: 3em;
+  padding-top:100px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+ 
+}
+ 
+.boxes {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   background: #f8f5f4;
+   padding:50px;
+   margin: 50px;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .middle-p {
+   line-height: 2em;
+   
+ }
+
+ .first-box {
+   padding:30px;
+ }
+
+ .second-box {
+  padding:30px;
+}
+
+.third-box {
+  padding:30px;
+}
+
+ .last {
+   display: flex;
+   flex-direction: row-reverse;
+   text-align: left;
+   align-items: center;
+   padding:100px;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ .last-title {
+  font-size: 3em;
+  font-weight: 400;
+ }
+
+ .last-p {
+  font-size: 1.5em;
+  font-weight:200;
+ }
+
+ footer {
+   background:navy;
+   padding:50px;
+ }
+ 
+ button {
+   background: #1865f2;
+   color: white;
+   border-radius: 5px;
+   padding: 15px;
+   margin: 5px;
+   border-style: none;
+   font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+   font-size:1em;
+
+ }
+
+.districts {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+
+}
+#courses {
+   color: #1865f2;
+   border: none;
+   font-weight: bold;
+   
+ }
+
+#search {
+   background: #f8f5f4;
+   border: none;
+   padding: 10px;
+   color: #1865f2;
+   font-weight: bold;
+ }
+
+::placeholder {
+   color:#1865f2;
+   font-weight: bold;
+ }
+ 
